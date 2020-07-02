@@ -1,0 +1,380 @@
+
+body { height: 100%; margin: 0; padding: 0 ;}
+#wrap{
+	width: 100%;
+	height: 635px;
+}
+#header{
+	width: 100%;
+	height: 10%;
+	background-color:#4d90fe;
+}
+#map_data{
+	width: 100%;
+	height: 90%;
+}
+#left{
+	width: 33%;
+	height: 100%;
+	background-color: #cdf;
+	float: left;
+	position: relative;
+}
+#map-canvas {
+	width: 67%;
+	height: 100%;
+	float: left;
+}
+#timduong{
+	width: 97%;
+	height: 50px;
+	background-color: #fff;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+
+	border: 1px solid transparent;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+#divmenu1{
+	padding-top: 4px;
+	float: left;
+	width: 10%;
+}
+#divtxttim{
+	float: left;
+	width: 69%;
+	height: 100%
+}
+#divtxttim:focus{
+	border-color: #4d90fe;
+}
+#maps_address{
+	padding-top: 2px;
+	width: 100%;
+	height: 95%;
+	border:0px;
+	font-size: 16px;
+	text-overflow: ellipsis;
+}
+#type-selector {
+color: #fff;
+background-color: #4d90fe;
+padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+font-family: Roboto;
+font-size: 13px;
+font-weight: 300;
+}
+#target {
+width: 345px;
+}
+
+#divSearch{
+	
+	padding-top: 4px;
+	float: left;
+	width: 40px;
+	height: 44.5px;
+	border-right: solid 1px #abc;
+}
+#divChiDuong{
+	padding-top: 4px;
+	float: left;
+	width: 10%;
+
+}
+#groupToaDo{
+	margin-top: 70px;
+	
+}
+#divtimvitrihientai{
+	float: left;
+
+}
+#divtimvitrihientai:hover{
+	box-shadow:4 3px 2px #2367bf;
+    -webkit-box-shadow:0 3px 2px #000;
+	-moz-box-shadow:0 3px 2px #000;
+	border-radius: 40px;
+	margin-left: 5px;
+	background-color: #4d90fe;
+}
+.centerLatLng{
+	float: left;
+
+}
+
+#contentChiDuong{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+#rowphuongtien{
+	height: 27%;
+	background-color: #cdf;
+	padding-top: 5px;
+}
+.phuongtien{
+	width: 50px;
+	height: 50px;
+	float: left;
+	border-radius: 20px;
+	text-align: center;
+    vertical-align: middle;
+}
+.icon{
+	padding-left: 8px;
+	padding-top: 7px;
+	width: 28px;
+	height: 28px; 
+}
+.icon1{
+	padding-top: 10px;
+	width: 28px;
+	height: 28px;
+}
+.icon2{
+	padding-left: 2px;
+	padding-top: 10px;
+	width: 28px;
+	height: 28px;
+}
+.textAB{
+	width: 75%;
+    height: 40px;
+    margin-left: 40px;
+    border: 0px;
+    border-bottom: solid 1px rgb(39, 37, 37);
+    background: #cdf;
+    font-size: 15px;
+
+}
+.textAB::-webkit-input-placeholder {
+   color: rgb(112, 117, 128);
+}
+ 
+#huongdan {
+		font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+
+        height: 73%;
+        overflow: auto;
+        background: #fff;
+}
+@media print {
+    #right-panel {
+      float: none;
+      width: auto;
+    }
+}
+#menu{
+  width: 33%;
+  height: 570px;
+  position: absolute;
+  left: 0px;
+  top: 64px;
+  border: 1px solid transparent;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+	background: #fff;
+	transition: 0.5s;
+}
+#rowMenu{
+	border-bottom: 1px solid #abc;
+	width: 100%;
+	height: 50px;
+	transition: 0.5s;
+}
+.marker{
+	width:20px;
+	height:20px;
+	padding-left:15px;
+}
+.marker:hover{
+	width: 25px;
+	height: 25px;
+}
+
+.find{
+	float: left;
+}
+.find:hover{
+	font-size: 14px;
+	color:rgb(211, 137, 0);
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+	font-size: 14px;
+	color: #008C5E;
+}
+#right-panel select, #right-panel input {
+    font-size: 13px;
+  }
+
+  #right-panel select {
+    width: 100%;
+  }
+
+  #right-panel i {
+    font-size: 12px;
+  }
+  #right-panel {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 400px;
+    width: 370px;
+    z-index: 5;
+    background: #fff;
+  }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    width:445px;
+    overflow-y: scroll;
+  }
+  li {
+    background-color: #cdf;
+    padding: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	overflow: hidden;
+	color: #000;
+  }
+  li:nth-child(odd) {
+	background-color: #fcfcfc;
+  }
+
+  #thongTinChiTiet{
+  	position: absolute;
+  	top: 17px;
+  	left: 0px;
+  	background: #cdf;
+  	display: none;
+  	overflow-y: scroll;
+  	height: 360px;
+    width:445px;
+  }
+ #timDuongTuDiem{
+ 	position: absolute;
+ 	right: 15px;
+ 	display: none;
+ 	border-radius: 30px;
+ 	width: 50px;
+ 	height: 50px;
+ 	background: #4d90fe;
+	text-align: center;
+ }
+ .find {
+	position: relative;
+  display: inline-block;
+  }
+  
+  .find .tooltiptext {
+	visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 70%;
+  margin-left: -60px;
+  }
+  .find .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black transparent transparent transparent;
+  }
+  
+  
+  .find:hover .tooltiptext {
+	visibility: visible;
+  }
+
+  .vitriHienTai {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .vitriHienTai .tooltiptext1 {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	
+	
+	position: absolute;
+	z-index: 1;
+	top: 110%;
+	left: 60px;
+	margin-left: -60px;
+  }
+  
+  .vitriHienTai:hover .tooltiptext1 {
+	visibility: visible;
+  }
+  @media only screen and (max-width:1178px) {
+	#maps_address{
+		width: 70%;
+		margin: 0;
+		padding: 0;
+	}
+	#divtxttim{
+		width: 60%;
+		margin: 0;
+		padding: 0;
+	}
+  }
+  @media only screen and (max-width:648px) {
+	#maps_address{
+		width: 50%;
+		margin: 0;
+		padding: 0;
+	}
+	#divtxttim{
+		width: 50%;
+		margin: 0;
+		padding: 0;
+	}
+  }
+  @media only screen and (max-width:434px) {
+	#maps_address{
+		width: 20%;
+		margin: 0;
+		padding: 0;
+	}
+	#divtxttim{
+		width: 10%;
+		margin: 0;
+		padding: 0;
+	}
+  }
+	
